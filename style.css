@@ -150,7 +150,14 @@ header.header-main {
 }
 .highlight {
   background: var(--primary-gradient);
+
+  /* Proprietà per Safari/Chrome */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  /* Proprietà Standard (per eliminare l'avviso e per compatibilità futura) */
+  background-clip: text;
+  color: transparent;
 }
 .hero-content p {
   font-size: 1.3rem;
