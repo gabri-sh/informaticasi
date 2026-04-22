@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informaticasì GROUP - Soluzioni Web Professionali</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-main">
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="logo.jpg" alt="informaticasì GROUP Logo" class="logo-large">
+            </div>
+            <nav class="nav-main">
+                <ul>
+                    <li><a href="#storia">Chi Siamo</a></li>
+                    <li><a href="#pacchetti">Pacchetti</a></li>
+                    <li><a href="#servizi">Servizi Extra</a></li>
+                    <li><a href="#recensioni">Recensioni</a></li>
+                    <li><a href="#contatti" class="btn-accent">Contattaci</a></li>
+                    <li>
+                        <button id="theme-toggle" class="theme-btn" aria-label="Cambia Tema">
+                            <span class="icon-sun">☀️</span>
+                            <span class="icon-moon">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Il Tuo Partner Digitale per Siti Web d'Impatto</h1>
+                <p>Semplici, professionali e personalizzati per far crescere il tuo business.</p>
+                <div class="hero-btns">
+                    <a href="#pacchetti" class="btn-main">Guarda i Pacchetti</a>
+                    <a href="#contatti" class="btn-secondary">Richiedi Info</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="storia" class="history-section">
+        <div class="container">
+            <h2 class="section-title">La Nostra Storia</h2>
+            <div class="history-content">
+                <div class="history-text">
+                    <p>Nata dalla passione per l'innovazione digitale, <strong>informaticasì GROUP</strong> ha mosso i suoi primi passi con un obiettivo chiaro: rendere il web uno strumento accessibile e potente per ogni azienda.</p>
+                    <p>Abbiamo iniziato supportando le realtà locali, trasformando le loro necessità in soluzioni concrete. Negli anni siamo cresciuti, espandendo le nostre competenze: dalla realizzazione di siti vetrina curati, alla sicurezza informatica e applicazioni su misura.</p>
+                    <p>Oggi siamo un punto di riferimento tecnologico solido, con l'esperienza di chi ha già aiutato centinaia di clienti a trasformare la propria visione in un autentico successo online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pacchetti" class="packages-section">
+        <div class="container">
+            <h2 class="section-title">Soluzioni Su Misura</h2>
+            <div class="carousel-container" id="packages-carousel">
+                <button class="carousel-btn prev-btn">&#10094;</button>
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <div class="package-card">
+                            <h3>ENTRY</h3>
+                            <p class="price">400€</p>
+                            <ul class="features-list"><li>Creazione sito web</li><li>Senza dominio</li></ul>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="package-card">
+                            <h3>REGULAR</h3>
+                            <p class="price">600€</p>
+                            <ul class="features-list"><li>Aggiornamenti periodici</li><li>Manutenzione</li><li>No dominio</li></ul>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="package-card featured">
+                            <h3>ADVANCED</h3>
+                            <p class="price">1100€</p>
+                            <ul class="features-list"><li>Assistenza bot 24/7</li><li>Acquisto dominio</li><li>Sicurezza inclusa</li></ul>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="package-card premium">
+                            <h3>PREMIUM</h3>
+                            <p class="price"><span class="strikethrough">2300€</span> <span class="discounted">1800€</span></p>
+                            <ul class="features-list"><li>Tutto incluso</li><li>Supporto prioritario</li><li>Ottimizzazione SEO</li></ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn">&#10095;</button>
+                <div class="carousel-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servizi" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Servizi Aggiuntivi</h2>
+            <div class="services-grid">
+                <div class="service-card"><div class="service-icon">🎨</div><h4>Logo Design</h4><p class="service-price">30€</p></div>
+                <div class="service-card"><div class="service-icon">📸</div><h4>Foto Professionali</h4><p class="service-price">450€</p></div>
+                <div class="service-card"><div class="service-icon">⚡</div><h4>Urgenza 24h</h4><p class="service-price">100€</p></div>
+                <div class="service-card"><div class="service-icon">📱</div><h4>App Prenotazioni</h4><p class="service-price">Contattaci</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recensioni" class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Dicono di Noi</h2>
+            <div class="carousel-container" id="reviews-carousel">
+                <button class="carousel-btn prev-btn">&#10094;</button>
+                <div class="carousel-track">
+                    <div class="carousel-slide"><div class="review-card"><h4>Giovanni R.</h4><div class="rating">★★★★★</div><p>"Risultati incredibili."</p></div></div>
+                    <div class="carousel-slide"><div class="review-card"><h4>Marta B.</h4><div class="rating">★★★★★</div><p>"Professionalità unica."</p></div></div>
+                    </div>
+                <button class="carousel-btn next-btn">&#10095;</button>
+                <div class="carousel-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatti" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contattaci</h2>
+            <form action="https://formspree.io/f/maqapvoq" method="POST" class="contact-form-modern">
+                <div class="form-group"><input type="text" name="name" placeholder="Nome" required></div>
+                <div class="form-group"><input type="email" name="_replyto" placeholder="Email" required></div>
+                <div class="form-group"><textarea name="message" rows="5" placeholder="Messaggio" required></textarea></div>
+                <button type="submit" class="btn-main">Invia Email</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer-main"><p>&copy; 2026 informaticasì GROUP.</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
